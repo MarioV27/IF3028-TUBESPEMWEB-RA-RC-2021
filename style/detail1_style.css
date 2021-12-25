@@ -1,0 +1,69 @@
+body {
+  background-image: radial-gradient(#910000, rgba(199, 90, 90, 0.938));
+}
+
+.container {
+  position: relative;
+  height: 200vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 50%;
+  margin: auto;
+  background-color: whitesmoke;
+  padding: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.content {
+  padding-top: 10px;
+  padding-left: 2%;
+  padding-bottom: 10px;
+  padding-right: 2%;
+  margin-top: 10px;
+  width: 96%;
+}
+
+.pemisah {
+  display: flex;
+}
+
+.waktu {
+  width: 60%;
+}
+
+.kedua {
+  width: 40%;
+  text-align: right;
+  display: flex;
+}
+
+.hps {
+  width: 70%;
+}
+
+a {
+  color: black;
+}
+
+.edt {
+  width: 30%;
+  text-align: left;
+}
+
+input {
+  width: 92.5%;
+  height: 30px;
+}
+
+button {
+  background-color: rgb(204, 46, 54);
+  border-radius: 10px;
+  height: fit-content;
+}

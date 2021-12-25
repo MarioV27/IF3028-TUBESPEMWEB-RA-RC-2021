@@ -1,0 +1,57 @@
+body {
+  background-image: radial-gradient(#910000, rgba(199, 90, 90, 0.938));
+}
+
+.container {
+  position: relative;
+  height: 200vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 50%;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 10px;
+}
+
+.header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.cari {
+  width: 81%;
+  height: 45px;
+  border-radius: 10px;
+}
+
+.btn {
+  width: 16%;
+  height: 50px;
+  float: right;
+  background-color: rgb(204, 46, 54);
+  border-radius: 10px;
+}
+
+p {
+  text-align: justify;
+}
+
+.waktu {
+  display: flex;
+}
+
+.lampir {
+  width: 30%;
+}
+
+.next {
+  width: 70%;
+  text-align: right;
+}
