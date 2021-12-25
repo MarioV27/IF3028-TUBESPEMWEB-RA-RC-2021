@@ -1,6 +1,6 @@
-Mario Vebriyanto 119140179
-Alloisius Fritz Gerald Winalda Sipayung 119140154
-Cantika Aurrelia 119140117
+-Mario Vebriyanto 119140179
+-Alloisius Fritz Gerald Winalda Sipayung 119140154
+-Cantika Aurrelia 119140117
 
 ## Simple `LAPOR` :heavy_exclamation_mark:
 Anda mengetahui aplikasi `lapor` yang dibuat oleh pemerintah republik indonesia? jika tidak silahkan kunjungi 
