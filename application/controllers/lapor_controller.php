@@ -1,21 +1,21 @@
 <?php
     defined("BASEPATH") OR exit("No direct script access allowed");
 
-    class control extends CI_Controller{
+    class lapor_controller extends CI_Controller{
         
         public function __construct(){
             parent::__construct();
-            $this->load->model("model");
+            $this->load->model("lapor_model");
             $this->load->library('form_validation');
         }
         
         public function index(){
-            $data["laporan"] = $this->model->getAll();
+            $data["laporan"] = $this->lapor_model->getAll();
             $this->load->view("home", $data); 
         }
 
         public function tambah(){
-            $laporan = $this->model;
+            $laporan = $this->lapor_model;
             $validation = $this->form_validation;
             $validation->set_rules($laporan->rules());
 
@@ -31,7 +31,7 @@
         public function edit($id = null){
             if (!isset($id)) redirect('home');
         
-            $laporan = $this->model;
+            $laporan = $this->lapor_model;
             $validation = $this->form_validation;
             $validation->set_rules($laporan->rules());
 
@@ -49,7 +49,7 @@
 
         public function detail($id = null){
             if (!isset($id)) redirect('home');
-            $laporan = $this->model;
+            $laporan = $this->lapor_model;
             $data["laporan"] = $laporan->getById($id);
             $this->load->view("detail", $data);
         }
@@ -57,8 +57,8 @@
         public function delete($id=null){
             if (!isset($id)) show_404();
             
-            if ($this->model->delete($id)) {
-                $data["laporan"] = $this->model->getAll();
+            if ($this->lapor_model->delete($id)) {
+                $data["laporan"] = $this->lapor_model->getAll();
                 $this->load->view("home", $data);
             }
         }
