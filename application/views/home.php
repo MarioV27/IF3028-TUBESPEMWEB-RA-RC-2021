@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>ITERAPOR - Itera Lapor!</title>
+	<title>Laporan ITERA</title>
 	<link rel="stylesheet" href="<?php echo base_url('style/home1_style.css') ?>">
 </head>
 
